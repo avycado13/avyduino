@@ -11,3 +11,9 @@ I used an ATmega328p for the microcontroller and a CH340G to convert USB to UART
 
 ![Final Schematic](images/avyduino-1.png)
 **Total Time Spent: 3 Hours**
+
+# Oct 5: Laid out PCB
+I laid out my PCB. The KiCad template already had the shape I needed in it so I didn't need to try drawing it. I tried laying things out to be close to where they need to connect, especially my decoupling capacitors because on past projects I screwed it up and forgot that they should go closer to the place they are connected to.
+
+![Completed Layout](images/avyduino-2.png)
+**Total Time Spent: 2 Hours**

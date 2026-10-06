@@ -2463,171 +2463,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:FerriteBead"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(in_pos_files yes)
-			(duplicate_pin_numbers_are_jumpers no)
-			(property "Reference" "FB"
-				(at -3.81 0.635 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "FerriteBead"
-				(at 3.81 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at -1.778 0 90)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Description" "Ferrite bead"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "L ferrite bead inductor filter"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_fp_filters" "Inductor_* L_* *Ferrite*"
-				(at 0 0 0)
-				(show_name no)
-				(do_not_autoplace no)
-				(hide yes)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "FerriteBead_0_1"
-				(polyline
-					(pts
-						(xy -2.7686 0.4064) (xy -1.7018 2.2606) (xy 2.7686 -0.3048) (xy 1.6764 -2.159) (xy -2.7686 0.4064)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 1.2954)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -1.27) (xy 0 -1.2192)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "FerriteBead_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 2.54)
-					(name ""
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Device:R"
 			(pin_numbers
 				(hide yes)
@@ -5321,6 +5156,12 @@
 		(uuid "e3b0032d-cffc-440d-aeaf-bef27b270faa")
 	)
 	(junction
+		(at 133.35 53.34)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "07468d03-f472-4c77-b152-3d7535d2209b")
+	)
+	(junction
 		(at 166.37 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5339,16 +5180,16 @@
 		(uuid "217752c0-0415-439a-bac2-8191a360529d")
 	)
 	(junction
+		(at 135.89 58.42)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "298ca3b8-f0bb-4af6-a99b-40cb350a51a8")
+	)
+	(junction
 		(at 133.35 40.64)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "30119096-6dad-41b8-b3d8-9bf127bb8e5f")
-	)
-	(junction
-		(at 137.16 58.42)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "30d1cbc4-bd4c-4641-9bab-c9b088ca9477")
 	)
 	(junction
 		(at 31.75 46.99)
@@ -5469,12 +5310,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf43f6f5-fb73-455e-80e5-dec93da1c40d")
-	)
-	(junction
-		(at 133.35 50.8)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e01c7d0c-3b26-40ca-bb34-6d5042d58257")
 	)
 	(junction
 		(at 241.3 27.9252)
@@ -5668,7 +5503,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 58.42) (xy 144.78 58.42)
+			(xy 135.89 58.42) (xy 144.78 58.42)
 		)
 		(stroke
 			(width 0)
@@ -5695,16 +5530,6 @@
 			(type default)
 		)
 		(uuid "1edae26f-3dc9-4833-b106-aceacc251ea3")
-	)
-	(wire
-		(pts
-			(xy 133.35 50.8) (xy 137.16 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1ef07c48-f95d-46b1-90fb-910b5476798c")
 	)
 	(wire
 		(pts
@@ -5888,6 +5713,16 @@
 	)
 	(wire
 		(pts
+			(xy 135.89 53.34) (xy 133.35 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "32553125-b42b-4f63-94e3-240b349cd7e9")
+	)
+	(wire
+		(pts
 			(xy 31.75 39.37) (xy 34.29 39.37)
 		)
 		(stroke
@@ -5965,6 +5800,16 @@
 			(type default)
 		)
 		(uuid "3af65e7a-894b-41b4-bd18-c7b2afd1130b")
+	)
+	(wire
+		(pts
+			(xy 135.89 58.42) (xy 135.89 53.34)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3e41a67c-b8a5-418a-804e-f17010ad9a71")
 	)
 	(wire
 		(pts
@@ -6158,7 +6003,7 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 43.18) (xy 133.35 50.8)
+			(xy 133.35 43.18) (xy 133.35 53.34)
 		)
 		(stroke
 			(width 0)
@@ -6185,16 +6030,6 @@
 			(type default)
 		)
 		(uuid "59cfe506-1d18-4e00-b18f-2562fb7b3ecd")
-	)
-	(wire
-		(pts
-			(xy 137.16 58.42) (xy 135.89 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ac8e241-9d15-4937-b835-51392c128d0f")
 	)
 	(wire
 		(pts
@@ -6305,16 +6140,6 @@
 			(type default)
 		)
 		(uuid "69ee661a-328c-4417-96b3-a03abc7fcd58")
-	)
-	(wire
-		(pts
-			(xy 133.35 50.8) (xy 133.35 58.42)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6b020ae4-b348-477a-911b-b99c0d954cb6")
 	)
 	(wire
 		(pts
@@ -6965,6 +6790,16 @@
 			(type default)
 		)
 		(uuid "e435d8c7-99ee-4c37-a077-461f456a3e9a")
+	)
+	(wire
+		(pts
+			(xy 133.35 53.34) (xy 133.35 58.42)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e561f1ac-b708-4202-9bd2-c1424b0d8a84")
 	)
 	(wire
 		(pts
@@ -8537,7 +8372,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 243.84 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8560,6 +8395,17 @@
 			)
 		)
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
+			(at 243.84 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LM358"
 			(at 243.84 139.7 0)
 			(hide yes)
 			(show_name no)
@@ -8637,7 +8483,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 237.49 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -8793,7 +8639,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 23.1648 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -8872,7 +8718,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 60.96 109.728 90)
 			(hide yes)
 			(show_name no)
@@ -8961,7 +8807,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 140.97 42.2148 0)
 			(hide yes)
 			(show_name no)
@@ -9116,7 +8962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Crystal:Crystal_HC49-U_Vertical"
 			(at 222.25 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9196,7 +9042,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 223.52 147.828 90)
 			(hide yes)
 			(show_name no)
@@ -9683,6 +9529,17 @@
 			)
 		)
 		(property "Description" "USB serial converter, UART, SOIC-16"
+			(at 243.84 54.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CH340G"
 			(at 243.84 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10321,7 +10178,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 251.46 30.7848 0)
 			(hide yes)
 			(show_name no)
@@ -10434,6 +10291,17 @@
 				)
 			)
 		)
+		(property "MPN" "MCP1700x-330xxTT"
+			(at 35.56 168.91 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "a8e14a05-0173-41b9-b207-e6f22c0d35ba")
 		)
@@ -10484,7 +10352,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
 			(at 248.92 151.13 0)
 			(hide yes)
 			(show_name no)
@@ -10509,6 +10377,16 @@
 		(property "Description" "Low-Power, Dual Operational Amplifiers, DIP-8/SOIC-8/TO-99-8"
 			(at 248.92 151.13 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "LM358"
+			(at 248.92 151.13 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10615,8 +10493,9 @@
 				)
 			)
 		)
-		(property "MPN" ""
+		(property "MPN" "ATmega328P-P"
 			(at 133.35 96.52 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10750,7 +10629,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 243.84 84.328 90)
 			(hide yes)
 			(show_name no)
@@ -10942,6 +10821,17 @@
 				)
 			)
 		)
+		(property "MPN" "LM2931AZ-5.0_TO92"
+			(at 82.55 170.18 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "8b9e3091-c312-421e-b08e-56dc66b54c2e")
 		)
@@ -10992,7 +10882,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_USB:USB_C_Receptacle_GCT_USB4105-xx-A_16P_TopMnt_Horizontal"
 			(at 36.83 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -11112,7 +11002,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 93.0148 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11269,7 +11159,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 257.81 100.6348 0)
 			(hide yes)
 			(show_name no)
@@ -11665,7 +11555,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 60.96 112.268 90)
 			(hide yes)
 			(show_name no)
@@ -11746,7 +11636,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 70.1548 170.18 0)
 			(hide yes)
 			(show_name no)
@@ -11827,7 +11717,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 227.0252 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -11909,7 +11799,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 226.822 151.13 90)
 			(hide yes)
 			(show_name no)
@@ -11989,7 +11879,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 233.68 26.9748 0)
 			(hide yes)
 			(show_name no)
@@ -12116,98 +12006,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:FerriteBead")
-		(at 137.16 54.61 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "988f0f23-e960-423a-b912-c2f51d6c65bb")
-		(property "Reference" "FB1"
-			(at 140.97 53.2891 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uH"
-			(at 140.97 55.8291 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 135.382 54.61 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 137.16 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Ferrite bead"
-			(at 137.16 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" ""
-			(at 137.16 54.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "d04328ce-93d2-4d23-96c7-fc026f938328")
-		)
-		(pin "2"
-			(uuid "7698f875-6a08-4b8b-a6e7-59d328da5ccf")
-		)
-		(instances
-			(project "avyduino"
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "FB1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Transistor_FET:AO3401A")
 		(at 261.62 139.7 0)
 		(unit 1)
@@ -12277,6 +12075,17 @@
 				)
 			)
 		)
+		(property "MPN" "AO3401A"
+			(at 261.62 139.7 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6685b8c4-11e2-489f-8ed5-b1617a6c3cdd")
 		)
@@ -12326,7 +12135,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 152.4 57.4548 0)
 			(hide yes)
 			(show_name no)
@@ -12483,7 +12292,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P10.16mm_Horizontal"
 			(at 254 82.55 0)
 			(hide yes)
 			(show_name no)
@@ -12584,7 +12393,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 257.81 108.2548 0)
 			(hide yes)
 			(show_name no)
@@ -12666,7 +12475,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric"
 			(at 227.838 105.41 90)
 			(hide yes)
 			(show_name no)
@@ -12747,7 +12556,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 219.4052 80.01 0)
 			(hide yes)
 			(show_name no)
@@ -13058,7 +12867,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 111.4552 74.93 0)
 			(hide yes)
 			(show_name no)
@@ -13215,7 +13024,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 46.0248 168.91 0)
 			(hide yes)
 			(show_name no)
@@ -13295,7 +13104,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
 			(at 182.88 103.1748 0)
 			(hide yes)
 			(show_name no)
