@@ -17,3 +17,9 @@ I laid out my PCB. The KiCad template already had the shape I needed in it so I 
 
 ![Completed Layout](images/avyduino-2.png)
 **Total Time Spent: 2 Hours**
+
+# Oct 5: Routed PCB
+I routed my PCB through the night with one GND plane and one plane for VCC. I routed it with standard size traces and kinda went overboard on the vias.
+
+![Completed PCB with Layout](images/avyduino-3.png)
+**Total Time Spent: 1.5 Hour**
