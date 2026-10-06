@@ -23,3 +23,9 @@ I routed my PCB through the night with one GND plane and one plane for VCC. I ro
 
 ![Completed PCB with Layout](images/avyduino-3.png)
 **Total Time Spent: 1.5 Hour**
+
+# Oct 6: Add ICSP Header
+I forgot to add an ICSP header for flashing it initially. So I added one to my schematic. I was a bit confused by the fact that it uses an SPI bus that also doubles as PWM pins but now it makes sense, but its still weird that it uses pins that could be occupied. it apparently just pulses really fast during flashing.
+
+![Schematic with ICSP Header](images/avyduino-4.png)
+**Total Time Spent: 1 Hour**
