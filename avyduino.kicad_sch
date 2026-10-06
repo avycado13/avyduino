@@ -5458,12 +5458,6 @@
 		(uuid "07468d03-f472-4c77-b152-3d7535d2209b")
 	)
 	(junction
-		(at 148.59 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "17a0db3c-6767-43c9-b33d-26856cb0a138")
-	)
-	(junction
 		(at 226.06 69.85)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -5500,10 +5494,22 @@
 		(uuid "3ede7297-4707-44d4-81e9-dbb57f93e7a3")
 	)
 	(junction
+		(at 149.86 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4f9a0b86-b7ab-435d-8e4b-29a044b88fb7")
+	)
+	(junction
 		(at 226.06 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5c617e5d-1e8c-4684-af38-f870f5cbc8c6")
+	)
+	(junction
+		(at 142.24 87.63)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5ec59e7f-fc79-45b2-9ca9-800a95b4b1c0")
 	)
 	(junction
 		(at 53.34 96.52)
@@ -5606,12 +5612,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "cf43f6f5-fb73-455e-80e5-dec93da1c40d")
-	)
-	(junction
-		(at 142.24 87.63)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "e77aea64-6cbd-4d79-97b8-adbc6b27bbd5")
 	)
 	(junction
 		(at 241.3 27.9252)
@@ -5855,6 +5855,16 @@
 	)
 	(wire
 		(pts
+			(xy 149.86 87.63) (xy 156.21 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "263f9c7f-8e22-4089-b562-368aa7fa6ea4")
+	)
+	(wire
+		(pts
 			(xy 226.06 69.85) (xy 226.06 72.39)
 		)
 		(stroke
@@ -5965,16 +5975,6 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 87.63) (xy 156.21 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2eaaed89-847e-4843-be77-768dc025a606")
-	)
-	(wire
-		(pts
 			(xy 228.6 146.05) (xy 228.6 147.32)
 		)
 		(stroke
@@ -6012,16 +6012,6 @@
 			(type default)
 		)
 		(uuid "32553125-b42b-4f63-94e3-240b349cd7e9")
-	)
-	(wire
-		(pts
-			(xy 142.24 87.63) (xy 148.59 87.63)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3322ae79-852c-456a-ad19-96cc4999649e")
 	)
 	(wire
 		(pts
@@ -6125,7 +6115,7 @@
 	)
 	(wire
 		(pts
-			(xy 142.24 77.47) (xy 142.24 80.01)
+			(xy 142.24 77.47) (xy 142.24 78.74)
 		)
 		(stroke
 			(width 0)
@@ -6222,6 +6212,16 @@
 			(type default)
 		)
 		(uuid "466f7dc6-818b-44b3-bb6d-2f1f1e1f30f8")
+	)
+	(wire
+		(pts
+			(xy 142.24 87.63) (xy 149.86 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46de387d-2ed2-42f4-95ff-2414b9efce78")
 	)
 	(wire
 		(pts
@@ -6895,6 +6895,16 @@
 	)
 	(wire
 		(pts
+			(xy 142.24 86.36) (xy 142.24 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b3fe61c0-0de0-4a42-ab6c-ff72d8622584")
+	)
+	(wire
+		(pts
 			(xy 132.08 77.47) (xy 129.54 77.47)
 		)
 		(stroke
@@ -7365,7 +7375,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 83.82) (xy 148.59 87.63)
+			(xy 149.86 83.82) (xy 149.86 87.63)
 		)
 		(stroke
 			(width 0)
@@ -7554,7 +7564,7 @@
 		(uuid "2a0fde46-f232-46c6-88dc-f9736d33dde9")
 	)
 	(label "~{RESET}"
-		(at 148.59 83.82 0)
+		(at 149.86 83.82 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9946,7 +9956,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 142.24 83.82 0)
+		(at 142.24 82.55 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -9957,7 +9967,7 @@
 		(fields_autoplaced yes)
 		(uuid "3ee4da36-3be5-4b1a-8bb8-8e20d0a7a49f")
 		(property "Reference" "R7"
-			(at 144.78 82.5499 0)
+			(at 144.78 81.2799 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9967,8 +9977,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "R"
-			(at 144.78 85.0899 0)
+		(property "Value" "10k"
+			(at 144.78 83.8199 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -9979,7 +9989,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 140.462 83.82 90)
+			(at 140.462 82.55 90)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -9990,7 +10000,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 83.82 0)
+			(at 142.24 82.55 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10001,8 +10011,18 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 142.24 83.82 0)
+			(at 142.24 82.55 0)
 			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" ""
+			(at 142.24 82.55 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10941,6 +10961,7 @@
 		)
 		(property "MPN" "LM358"
 			(at 248.92 151.13 0)
+			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects

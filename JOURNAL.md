@@ -29,3 +29,9 @@ I forgot to add an ICSP header for flashing it initially. So I added one to my s
 
 ![Schematic with ICSP Header](images/avyduino-4.png)
 **Total Time Spent: 1 Hour**
+
+# Oct 6: Add ICSP Header to PCB
+I added the ICSP header to the PCB and routed it. The DRC and ERC both pass, so I think I am good. Next, I just need to source the parts and write my README.
+
+![Schematic with ICSP Header](images/avyduino-5.png)
+**Total Time Spent: 0.5 Hour**
