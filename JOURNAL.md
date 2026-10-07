@@ -42,8 +42,13 @@ I had started to put part numbers on things when I realized that my layout wasn'
 ![New PCB Layout](images/avyduino-6.png)
 **Total Time Spent: 1 Hour**
 
+# Oct 6: Route PCB
+I rerouted the PCB with the new layout. For this one, I got rid of the Front VCC plane and only used a ground plane on the back layer. I forgot to commit this journal log because I had to do something so ya.
+![Routed PCB with new layout](images/avyduino-7.png)
+**Total Time Spent: 1 Hour**
+
 # Oct 6: Make BOMs
 I made the BOMs in octopart and exported the production files. I also made one BOM that uses only LCSC parts.
 
-![Octopart](images/avyduino-7.png)
+![Octopart](images/avyduino-8.png)
 **Total Time Spent: 1.5 Hour**
