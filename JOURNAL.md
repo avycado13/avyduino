@@ -35,3 +35,9 @@ I added the ICSP header to the PCB and routed it. The DRC and ERC both pass, so 
 
 ![Schematic with ICSP Header](images/avyduino-5.png)
 **Total Time Spent: 0.5 Hour**
+
+# Oct 6: Redo Layout of PCB
+I had started to put part numbers on things when I realized that my layout wasn't that great and I could make it better and I also wanted to switch the footprint of some things to be easier to solder. I redid the layout and updated some names and footprints.
+
+![New PCB Layout](images/avyduino-6.png)
+**Total Time Spent: 1 Hour**
