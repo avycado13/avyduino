@@ -52,3 +52,9 @@ I made the BOMs in octopart and exported the production files. I also made one B
 
 ![Octopart](images/avyduino-8.png)
 **Total Time Spent: 1.5 Hour**
+
+# Oct 7: Add firmware
+I added a basic sketch to flash an LED on pin D13 every 0.5 seconds and a Makefile to flash the arduino. there is one command to burn it to the bootloader initially and one for normal flashing. Both just use arduino-cli, so it should work in Arduino IDE. I don't know what image to put, so I am putting the KiCad 3d render.
+
+![3D View](images/avyduino-3drender.png)
+**Total Time Spent: 1.5 Hour**

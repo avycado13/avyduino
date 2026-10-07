@@ -16,4 +16,4 @@ My take on the classic Arduino UNO. Powered by the same chips, but using a USB-C
 I compiled 2 BOMs. One is from octopart and has parts sourced from multiple separate suppliers. [BOM here](ordering/bom.xlsx) and one entirely from LCSC. [BOM here](ordering/bom_lcsc_only.xlsx)
 
 ## Firmware
-NOTE TO LATER SELF: WRITE THE DAMN FIRMWARE FOR THE BOOTLOADER
+See [firmware/README.md](firmware/README.md) for the Uno Optiboot first-flash procedure and a USB serial bring-up sketch. The ATmega328P uses the standard Arduino Uno bootloader; the CH340G is a USB-to-UART bridge and does not need custom firmware.
