@@ -1,8 +1,8 @@
 # Avyduino
 
 My take on the classic Arduino UNO. Powered by the same chips, but using a USB-C socket.
-![3D View](images/avyduino-3drender.png)
-![PCB](images/avyduino-7.png)
+![3D View](images/avyduino-3drender-rev1_1.png)
+![PCB](images/avyduino-10.png)
 
 
 ## Features
