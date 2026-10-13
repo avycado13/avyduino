@@ -58,8 +58,15 @@ I added a basic sketch to flash an LED on pin D13 every 0.5 seconds and a Makefi
 
 ![3D View](images/avyduino-3drender.png)
 **Total Time Spent: 1.5 Hour**
- # Oct 13: Added Reset Button and Redid Layout
+# Oct 13: Added Reset Button and Redid Layout
 My board got reviewed by [Kai](https://github.com/kaipereira) and he told me to add a top GND plane and move my decoupling capacitors closer to the IC Power Pins which I did. I also added a reset button to the board which pulls reset low to GND.
 
 ![Schematic with RESET Button](images/avyduino-9a.png)
 ![New PCB](images/avyduino-9b.png)
+
+**Total Time Spent: 1.5 Hour**
+# Oct 13: Redid Layout Again
+I redid the layout again so that the decoupling caps were actually in good positions.
+
+![Even Newer PCB](images/avyduino-10.png)
+**Total Time Spent: 1.5 Hour**
